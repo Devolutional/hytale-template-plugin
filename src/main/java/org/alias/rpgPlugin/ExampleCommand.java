@@ -1,4 +1,4 @@
-package org.example.plugin;
+package org.alias.rpgPlugin;
 
 import com.hypixel.hytale.protocol.GameMode;
 import com.hypixel.hytale.server.core.Message;

@@ -1,14 +1,14 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "RPGSkills",
+    "Name": "RPGSkills",
+    "Version": "0.0.1a",
+    "Description": "A Skills & Experience Plugin",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Alias - Discord: clowndancing"
         }
     ],
-    "Website": "example.org",
+    "Website": "www.none.atm",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +17,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "org.alias.rpgPlugin.RPGPluginEntry",
     "IncludesAssetPack": true
 }

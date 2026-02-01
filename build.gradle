@@ -49,6 +49,12 @@ javadoc {
 // the official launcher for now.
 dependencies {
     implementation(files("$hytaleHome/install/$patchline/package/game/latest/Server/HytaleServer.jar"))
+    implementation "com.github.luben:zstd-jni:1.5.6-6"
+}
+
+// Define repositories to resolve external dependencies
+repositories {
+    mavenCentral()
 }
 
 // Create the working directory to run the server if it does not already exist.
